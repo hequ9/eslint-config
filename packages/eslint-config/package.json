@@ -10,7 +10,6 @@
     "eslint",
     "eslint-config"
   ],
-  "readme": "../../README.md",
   "main": "index.js",
   "files": [
     "index.js"
