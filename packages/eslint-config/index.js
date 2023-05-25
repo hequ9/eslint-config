@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     '@antfu/eslint-config',
+    './disable-autofix'
   ],
-  plugins: ['disable-autofix'],
   rules: {
     'indent': 'off',
     '@typescript-eslint/indent': ['error', 2],
@@ -12,22 +12,11 @@ module.exports = {
     'for-direction': 'error',
     'no-sequences': 'off',
     '@typescript-eslint/brace-style': ['error', '1tbs'],
-    'unused-imports/no-unused-vars': 'off',
-    'unused-imports/no-unused-imports': 'off',
     'newline-per-chained-call': [
       'error',
       { ignoreChainWithDepth: 1 },
     ],
-    'disable-autofix/unused-imports/no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        varsIgnorePattern: '^_',
-        args: 'after-used',
-        argsIgnorePattern: '^_',
-      },
-    ],
-    'disable-autofix/unused-imports/no-unused-imports': 'error',
+
     'one-var': 'off',
     'no-useless-return': 'off',
     'no-restricted-syntax': [
