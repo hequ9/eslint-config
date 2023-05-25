@@ -1,17 +1,17 @@
 module.exports = {
-  plugins: ["disable-autofix"],
+  plugins: ['disable-autofix'],
   rules: {
-    "unused-imports/no-unused-vars": "off",
-    "unused-imports/no-unused-imports": "off",
-    "disable-autofix/unused-imports/no-unused-vars": [
-      "error",
+    'unused-imports/no-unused-vars': 'off',
+    'unused-imports/no-unused-imports': 'off',
+    'disable-autofix/unused-imports/no-unused-vars': [
+      'error',
       {
-        vars: "all",
-        varsIgnorePattern: "^_",
-        args: "after-used",
-        argsIgnorePattern: "^_",
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
       },
     ],
-    "disable-autofix/unused-imports/no-unused-imports": "error",
+    'disable-autofix/unused-imports/no-unused-imports': 'error',
   },
-};
+}
