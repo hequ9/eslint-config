@@ -1,0 +1,28 @@
+{
+  "name": "@hequ9/eslint-config",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.5.1",
+  "description": "Eslint config preset based on @antfu/eslint-config",
+  "author": "hequ9 <hequ9@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/hequ9/eslint-config",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "readme": "../../README.md",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "latest",
+    "eslint-plugin-disable-autofix": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  }
+}
