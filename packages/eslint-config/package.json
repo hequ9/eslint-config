@@ -12,7 +12,8 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "disable-autofix.js"
   ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
