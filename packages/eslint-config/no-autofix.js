@@ -1,9 +1,9 @@
 module.exports = {
-  plugins: ['disable-autofix'],
+  plugins: ['no-autofix'],
   rules: {
     'unused-imports/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'off',
-    'disable-autofix/unused-imports/no-unused-vars': [
+    'no-autofix/unused-imports/no-unused-vars': [
       'error',
       {
         vars: 'all',
@@ -12,6 +12,6 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
-    'disable-autofix/unused-imports/no-unused-imports': 'error',
+    'no-autofix/unused-imports/no-unused-imports': 'error',
   },
 }

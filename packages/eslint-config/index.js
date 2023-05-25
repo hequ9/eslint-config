@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     '@antfu/eslint-config',
-    './disable-autofix',
+    './no-autofix',
   ],
   rules: {
     'indent': 'off',

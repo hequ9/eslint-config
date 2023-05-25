@@ -13,14 +13,14 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "disable-autofix.js"
+    "no-autofix.js"
   ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "dependencies": {
     "@antfu/eslint-config": "latest",
-    "eslint-plugin-disable-autofix": "latest"
+    "eslint-plugin-no-autofix": "latest"
   },
   "devDependencies": {
     "eslint": "^8.41.0"
