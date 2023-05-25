@@ -1,6 +1,6 @@
 {
   "name": "@hequ9/eslint-config",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "packageManager": "pnpm@8.5.1",
   "description": "Eslint config preset based on @antfu/eslint-config",
   "author": "hequ9 <hequ9@outlook.com>",
